@@ -1,0 +1,12 @@
+{
+  "name": "FizzBizz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+	"express": "^4.12.3",
+    "marko": "^3.0.3"
+  }
+}

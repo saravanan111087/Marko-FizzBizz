@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>${data.name}</title>
+    </head>
+    <body> 
+	<h1>${data.name}!!!</h1>
+	<ul>
+		<for(var i=1; i<=100; i++)>
+			<if(i % 15 === 0)>
+				<li style="color:red">FizzBizz</li>
+			</if>
+		   <else-if(i % 5 === 0)>
+				<li style="color:blue">Bizz</li>
+			</else-if>
+			<else-if(i % 3 === 0)>
+				<li style="color:green">Fizz</li>
+			</else-if>
+			<else>
+				<li style="color:orange">${i}</li>
+			</else>
+		</for>
+	</ul>
+</body>
+</html>
